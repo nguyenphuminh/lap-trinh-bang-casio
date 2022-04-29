@@ -1,5 +1,5 @@
 # Casioooo
-Note: Mình đang sử dụng chiếc Casio fx-580 trong bài viết này vì nó có nhiều tính năng và có hiệu năng mạnh mẽ nhất nhé :D
+Note: Mình đang sử dụng chiếc Casio fx-580 trong bài viết này vì nó có nhiều tính năng nhất nhé :D
 
 
 ## Những gì ta không có
@@ -23,12 +23,7 @@ Bạn sẽ phải nhập lại chương trình từ đầu với mỗi lần chu
 Vì nó không sinh ra với mục đích để lập trình, nên UI tất nhiên sẽ không vừa mắt, không có đồ họa và trải nghiệm dùng khá... không vui :)
 
 ### String
-Bạn sẽ không có string!
-
-### Hãy sáng tạo
-Vì không có luật lệ gì ở đây nên hãy sáng tạo hết sức có thể :) Hãy sẵn sàng áp dụng "sự thủ công" nhé vì ta sẽ thiếu rất nhiều thứ trên chiếc máy tính này :)
-
-Ví dụ như string, bạn có thể biến input của bạn thành một dãy các số theo bảng ASCII một cách thủ công, rồi sau đó thực thi chương trình của bạn trên dãy số đó :)
+Bạn sẽ không có string! (Mặc dù bạn có thể xử lý theo ASCII một cách thủ công)
 
 
 ## Những khái niệm lập trình cơ bản
@@ -132,10 +127,12 @@ Các biến khai báo trước:
 ```
 
 ```
-
+RanInt#(0, A-B):1/(A-B*Int(A/B)):B+1->B
 ```
 
-Chương trình sẽ báo lỗi `Math Error` khi số chia hết cho số nào đó, chương trình sẽ báo lỗi `Range Error` khi vượt quá số đã cho (tức số đã cho chính là số nguyên tố).
+Chương trình sẽ báo lỗi `Math Error` khi số chia hết cho số nào đó, chương trình sẽ báo lỗi `Argument Error` khi vượt quá số đã cho (tức số đã cho chính là số nguyên tố).
+
+Giải thích: Nếu A bằng B thì A-B bằng 0 thì ta có `RanInt#(0, 0)` báo lỗi `Argument Error`, tại đây ta dừng, còn nếu A chia hết cho B thì `(A-B*Int(A/B))` bằng 0 thì 1 chia 0 sẽ báo lỗi, sau đó ta cộng 1 vào B sau một lần kiểm tra.
 
 ### Lấy số lớn hơn giữa 2 số:
 Các biến khai báo trước:
