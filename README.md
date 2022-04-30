@@ -105,6 +105,8 @@ Bạn nên nhớ là máy cũng có vô vàn tính năng rất mạnh, như các
 ## Một số chương trình cơ bản
 
 ### Fibonacci:
+Note: Nếu bạn không biết Fibonacci là gì thì nó là một dãy số gồm các số Ai với Ai+2 = Ai+1 + Ai, ví dụ: `1, 1, 2, 3, 5, 8, 13, 21,...`.
+
 Các biến khai báo trước:
 ```
 0->A
