@@ -1,5 +1,11 @@
 # Casioooo
-Note: Mình đang sử dụng chiếc Casio fx-580 trong bài viết này vì nó có nhiều tính năng nhất nhé :D
+
+## Why?
+Vui mà :)
+
+
+## Chọn máy
+Mình đang sử dụng chiếc Casio fx-580 trong bài viết này vì nó có nhiều tính năng nhất nhé :D
 
 
 ## Những gì ta không có
@@ -102,6 +108,7 @@ Giải thích: Áp dụng cách lấy số lớn nhất nêu trên, nếu như A
 ### Casio là một cỗ máy toán học mạnh mẽ
 Bạn nên nhớ là máy cũng có vô vàn tính năng rất mạnh, như các hàm số toán học, các hàm `RndInt`, `Int`, `Intg`, các phép đổi đại lượng,... nên hãy tận dụng triệt để chúng nhé!
 
+
 ## Một số chương trình cơ bản
 
 ### Fibonacci:
@@ -164,4 +171,5 @@ Code:
 
 
 ## Contributors
-* Nguyễn Phú Minh
+* Nguyễn Phú Minh - [nguyenphuminh](https://github.com/nguyenphuminh)
+* [apple096](https://github.com/apple096)
