@@ -106,7 +106,7 @@ Chẳng hạn như bạn muốn báo lỗi khi nhập vào một số quá giá 
 Giải thích: Áp dụng cách lấy số lớn nhất nêu trên, nếu như A >= B, thì B-A sẽ bé hơn 0, nên số lớn nhất giữa hai số là 0 và phép tính sẽ chia cho 0 (máy sẽ báo lỗi `Math Error`), còn đâu thì chia cho B-A, chạy bình thường.
 
 ### Casio là một cỗ máy toán học mạnh mẽ
-Bạn nên nhớ là máy cũng có vô vàn tính năng rất mạnh, như các hàm số toán học, các hàm `RndInt`, `Int`, `Intg`, các phép đổi đại lượng,... nên hãy tận dụng triệt để chúng nhé!
+Bạn nên nhớ là máy cũng có vô vàn tính năng rất mạnh, như các hàm số toán học, các hàm `RanInt`, `Int`, `Intg`, các phép đổi đại lượng,... nên hãy tận dụng triệt để chúng nhé!
 
 
 ## Một số chương trình cơ bản
